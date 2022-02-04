@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
-import signInImg from './assets/Frame.png';
-import {Link} from 'react-router-dom'
+;
+import {Routes, Route, Link} from 'react-router-dom'
+import SignIn from './containers/SignIn'
 
 import './App.css';
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <Fragment>
       <Routes>
-        <Route path="/sign-in" element={signInImg}/>
+        <Route path="/sign-in" element={ SignIn }/>
       </Routes>
     </Fragment>
   );

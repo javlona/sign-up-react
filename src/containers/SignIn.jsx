@@ -1,8 +1,11 @@
 import React from 'react';
+import signInImg from '../assets/Frame.png'
+import {Link} from 'react-router-dom'
 
-export default function SignIn() {
-  return <div>
-        <div className="App">
+import '../App.css'
+
+function SignIn() {
+  return <div className="App">
             <div className="sign-in-image">
                 <img src={signInImg} alt="Sign in image" />
             </div>
@@ -17,6 +20,7 @@ export default function SignIn() {
                 </div>
                 </form>
             </div>
-        </div> 
-  </div>;
+         </div> 
 }
+
+export default SignIn;
